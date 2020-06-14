@@ -1,41 +1,78 @@
 {
-    "minVersion": "0.1",
-    "class": "DepictionTabView",
+    "tintColor": "#0657bb",
     "tabs": [
         {
-            "class": "DepictionStackView",
-            "tabname": "Overview",
             "views": [
                 {
-                    "class": "DepictionHeaderView",
-                    "title": "iOS Wallpapers for WallpaperLoader"
+                    "useBottomMargin": false,
+                    "title": "iOSStockWallpapers",
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true
                 },
                 {
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "otduoed"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
                     "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 10,
-                    "itemSize": "{160, 346}",
                     "screenshots": [
                         {
-                            "url": "https://thelball.github.io/iPhoneOSWall/screen.png",
-                            "accessibilityText": "Screenshot of the wallpapers shown in Settings."
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://thelball.github.io/iPhoneOSWall/screen.png"
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "Changelog",
-            "views": [
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Version 1.0.1:\\n* Added depictions to Cydia, Sileo, and Zebra."
+                    ],
+                    "itemCornerRadius": 6
                 },
                 {
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
                     "class": "DepictionMarkdownView",
-                    "markdown": "Version 1.0:\\n* Initial release."
+                    "useBoldText": true,
+                    "markdown": "eutdiscaeudic"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "text": "1.0.1",
+                    "title": "Version",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "06-14-2020",
+                    "title": "Released",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "text": "Free",
+                    "title": "Price",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "TheLBall",
+                    "title": "Developer",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
                 }
-            ]
+            ],
+            "tabname": "Details",
+            "class": "DepictionStackView"
         }
-    ]
+    ],
+    "headerImage": "",
+    "class": "DepictionTabView",
+    "minVersion": "0.1"
 }
