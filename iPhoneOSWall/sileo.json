@@ -12,7 +12,7 @@
                 },
                 {
                     "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": "10",
+                    "itemCornerRadius": 10,
                     "screenshots": [
                         {
                             "url": "https://thelball.github.io/iPhoneOSWall/screen.png",
