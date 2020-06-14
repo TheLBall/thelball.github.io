@@ -29,11 +29,11 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Version 1.0.1:\\n* Added depictions to Cydia, Sileo, and Zebra."
+                    "markdown": "Version 1.0.1:\n* Added depictions to Cydia, Sileo, and Zebra."
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Version 1.0:\\n* Initial release."
+                    "markdown": "Version 1.0:\n* Initial release."
                 }
             ]
         }
