@@ -28,6 +28,10 @@
             "tabname": "Changelog",
             "views": [
                 {
+                    "class":"DepictionMarkdownView",
+                    "markdown": "Version 1.1:\n* Added the iOS 8 Beta wallpapers (thanks to DylanMcD8 for providing the files!)."
+                }
+                {
                     "class": "DepictionMarkdownView",
                     "markdown": "Version 1.0.1:\n* Added depictions to Cydia, Sileo, and Zebra."
                 },
