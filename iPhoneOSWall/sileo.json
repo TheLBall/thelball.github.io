@@ -1,0 +1,40 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Overview",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "iOS Wallpapers for WallpaperLoader"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": "10",
+                    "screenshots": [
+                        {
+                            "url": "https://thelball.github.io/iPhoneOSWall/screen.png",
+                            "accessibilityText": "Screenshot of the wallpapers shown in Settings."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Version 1.0.1:\\n* Added depictions to Cydia, Sileo, and Zebra."
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Version 1.0:\\n* Initial release."
+                }
+            ]
+        }
+    ]
+}
