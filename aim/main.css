@@ -1,0 +1,29 @@
+body
+{
+	background-color: #00f;
+	color: white;
+	font-family: monospace
+}
+h1
+{
+	background-color: white;
+	color: #00f
+}
+h2
+{
+    background-color: white;
+    color: #00f
+}
+a
+{
+    color: white !important
+}
+footer
+{
+    background-color: white;
+    color: #00f
+}
+.highlight {
+    background-color: white;
+    color: #00f
+}
